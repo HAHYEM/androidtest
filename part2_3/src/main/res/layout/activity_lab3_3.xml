@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="나랑 결혼해줄래 나랑 평생을 함께 살래 우리 둘이 알콩달콩 서로 사랑하며 나 닮은 아이 하나 너 닮은 아이 하나 낳고 천년만년 아프지 말고 난 살고 싶은데 솔직히 말해서 내가 널 더 좋아해 남자와 여자사이에 그게 좋다고 하던데 내가 더 사랑할게 내가 더 아껴줄게 눈물이 나고 힘이 들때면 아플때면 함께 아파할게"/>
+        android:text="@string/long_text"/>
     <Button
         android:id="@+id/btn_visible_true"
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="나랑 결혼해줄래 나랑 평생을 함께 살래 우리 둘이 알콩달콩 서로 사랑하며 나 닮은 아이 하나 너 닮은 아이 하나 낳고 천년만년 아프지 말고 난 살고 싶은데 솔직히 말해서 내가 널 더 좋아해 남자와 여자사이에 그게 좋다고 하던데 내가 더 사랑할게 내가 더 아껴줄게 눈물이 나고 힘이 들때면 아플때면 함께 아파할게"
+        android:text="@string/long_text"
         android:maxLines="3"/>
     <TextView
         android:id="@+id/text_visible_target"
@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="나랑 결혼해줄래 나랑 평생을 함께 살래 우리 둘이 알콩달콩 서로 사랑하며 나 닮은 아이 하나 너 닮은 아이 하나 낳고 천년만년 아프지 말고 난 살고 싶은데 솔직히 말해서 내가 널 더 좋아해 남자와 여자사이에 그게 좋다고 하던데 내가 더 사랑할게 내가 더 아껴줄게 눈물이 나고 힘이 들때면 아플때면 함께 아파할게"
+        android:text="@string/long_text"
         android:ellipsize="end"
         android:maxLines="3"/>
     <Button

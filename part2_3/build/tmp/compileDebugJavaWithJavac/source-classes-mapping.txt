@@ -6,3 +6,4 @@ com/example/part2_3/MainActivity.java
  com.example.part2_3.MainActivity
 com/example/part2_3/Lab3_2Activity.java
  com.example.part2_3.Lab3_2Activity
+ com.example.part2_3.Lab3_2Activity$1
