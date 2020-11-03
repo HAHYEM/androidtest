@@ -18,6 +18,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AndroidLab" >
+        <activity android:name="com.example.part2_3.Lab3_3Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.part2_3.Lab3_2Activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

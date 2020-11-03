@@ -1667,6 +1667,8 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btn_visible_false
+id btn_visible_true
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1918,6 +1920,7 @@ id textSpacerNoTitle
 id textStart
 id text_input_end_icon
 id text_input_start_icon
+id text_visible_target
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2013,6 +2016,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_lab3_2
+layout activity_lab3_3
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
