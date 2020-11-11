@@ -1,9 +1,12 @@
 com/example/part2_3/BuildConfig.java
  com.example.part2_3.BuildConfig
+com/example/part2_3/Lab3_2Activity.java
+ com.example.part2_3.Lab3_2Activity
+ com.example.part2_3.Lab3_2Activity$1
 com/example/part2_3/Lab3_3Activity.java
  com.example.part2_3.Lab3_3Activity
 com/example/part2_3/MainActivity.java
  com.example.part2_3.MainActivity
-com/example/part2_3/Lab3_2Activity.java
- com.example.part2_3.Lab3_2Activity
- com.example.part2_3.Lab3_2Activity$1
+com/example/part2_3/Lab3_4Activity.java
+ com.example.part2_3.Lab3_4Activity
+ com.example.part2_3.Lab3_4Activity$1

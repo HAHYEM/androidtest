@@ -48,16 +48,16 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/lee"
+        android:src="@drawable/sample"
         android:maxWidth="100dp"
         android:maxHeight="100dp"
         android:adjustViewBounds="true"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/lee"
+        android:src="@drawable/sample"
         android:maxWidth="100dp"
         android:maxHeight="100dp"
-        android:tint="#800000ff"
-        android:adjustViewBounds="true"/>
+        android:adjustViewBounds="true"
+        app:tint="#800000ff"/>
 </LinearLayout>

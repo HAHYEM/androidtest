@@ -1548,7 +1548,6 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable lee
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1578,6 +1577,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable sample
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1743,6 +1743,7 @@ id fitToContents
 id fixed
 id flip
 id floating
+id fontView
 id forever
 id ghost_view
 id ghost_view_holder
@@ -2021,6 +2022,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_lab3_2
 layout activity_lab3_3
+layout activity_lab3_4
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2135,6 +2137,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string long_text
 string material_slider_range_end
 string material_slider_range_start
 string mtrl_badge_numberless_content_description

@@ -68,6 +68,10 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\build\\intermediates\\res\\merged\\debug\\drawable_sample.JPG.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\src\\main\\res\\drawable\\sample.JPG"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -92,7 +96,7 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\build\\intermediates\\res\\merged\\debug\\drawable_lee.JPG.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\src\\main\\res\\drawable\\lee.JPG"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\build\\intermediates\\res\\merged\\debug\\layout_activity_lab3_4.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\AndroidLab\\part2_3\\src\\main\\res\\layout\\activity_lab3_4.xml"
     }
 ]
