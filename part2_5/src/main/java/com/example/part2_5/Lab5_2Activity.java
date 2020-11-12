@@ -1,5 +1,6 @@
 package com.example.part2_5;
 
+import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
@@ -11,7 +12,6 @@ import android.widget.DatePicker;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Calendar;
@@ -124,10 +124,10 @@ public class Lab5_2Activity extends AppCompatActivity implements View.OnClickLis
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             //custom dialog를 위한 layout xml 초기화
             LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-            /*View view = inflater.inflate(R.layout.dialog_layout, null);
+            View view = inflater.inflate(R.layout.dialog_layout, null);
             builder.setView(view);
             builder.setPositiveButton("확인", dialogListener);
-            builder.setNegativeButton("취소", null);*/
+            builder.setNegativeButton("취소", null);
 
             customDialog = builder.create();
             customDialog.show();
