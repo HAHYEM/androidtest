@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if(v == bellTextView) {
-            showToast("bell text click event...");
+            showToast("helium bell text click event.");
         } else if (v == labelTextView) {
-            showToast("label text click event...");
+            showToast("label text click event.");
         }
     }
 
@@ -74,10 +74,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(event.getAction() == MotionEvent.ACTION_DOWN) {
             initX = event.getRawX();
         } else if (event.getAction() == MotionEvent.ACTION_UP) {
-            float diffx = initX - event.getRawX();
-            if(diffx > 30) {
+            float diff_x = initX - event.getRawX();
+            if(diff_x > 30) {
                 showToast("왼쪽으로 화면을 밀었습니다.");
-            } else if(diffx < -30) {
+            } else if(diff_x < -30) {
                 showToast("오른쪽으로 화면을 밀었습니다.");
             }
         }
