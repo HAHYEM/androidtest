@@ -1,5 +1,6 @@
 package com.example.part2_6;
 
+import android.app.TimePickerDialog;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
@@ -8,14 +9,18 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener{
 
     TextView bellTextView;
     TextView labelTextView;
+    TextView alarmTextView;
 
     CheckBox repeatCheckView;
     CheckBox vibrateCheckView;
@@ -31,21 +36,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         bellTextView = findViewById(R.id.bell_name);
-        labelTextView=findViewById(R.id.label);
+        labelTextView = findViewById(R.id.label);
+        alarmTextView = findViewById(R.id.time);
 
-        repeatCheckView=findViewById(R.id.repeatCheck);
-        vibrateCheckView=findViewById(R.id.vibrate);
-        switchView=findViewById(R.id.onOff);
+        repeatCheckView = findViewById(R.id.repeatCheck);
+        vibrateCheckView = findViewById(R.id.vibrate);
+        switchView = findViewById(R.id.onOff);
 
         bellTextView.setOnClickListener(this);
         labelTextView.setOnClickListener(this);
+        alarmTextView.setOnClickListener(this);
+
         repeatCheckView.setOnCheckedChangeListener(this);
         vibrateCheckView.setOnCheckedChangeListener(this);
         switchView.setOnCheckedChangeListener(this);
     }
 
     private void showToast(String message) {
-        Toast toast=Toast.makeText(this, message, Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
         toast.show();
     }
 
@@ -55,6 +63,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             showToast("helium bell text click event.");
         } else if (v == labelTextView) {
             showToast("label text click event.");
+        } else if (v == alarmTextView) {
+            //현재 시간으로 Dialog를 띄우기 위해 시간을 구함
+            Calendar c = Calendar.getInstance();
+            int hour = c.get(Calendar.HOUR_OF_DAY);
+            int minute = c.get(Calendar.MINUTE);
+
+            TimePickerDialog timeDialog = new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
+                @Override
+                public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                    showToast(hourOfDay + " : " + minute);
+                }
+            }, hour, minute, false);
+            timeDialog.show();
         }
     }
 
